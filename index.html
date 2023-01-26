@@ -415,7 +415,7 @@
         </div>
       </div>
 
-      <form action="forms/contact.php" method="post" role="form" class="php-email-form mt-4">
+      <form action="mailto:ritikrajbarh18.com" method="post" role="form" class="contact_email" enctype="text/plain">
         <div class="row">
           <div class="col-md-6 form-group">
             <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
@@ -430,16 +430,12 @@
         <div class="form-group mt-3">
           <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
         </div>
-        <div class="my-3">
-          <div class="loading">Loading</div>
-          <div class="error-message"></div>
-          <div class="sent-message">Your message has been sent. Thank you!</div>
-        </div>
-        <div class="text-center"><button type="submit">Send Message</button></div>
+        
+        <div class="text-center"><input type="submit" class="contact_email_button" value="Send Message"></div>
       </form>
 
     </div>
-  </section><!-- End Contact Section -->
+  </section>
 
   <div class="credits">
     Designed by <a href="index.html">Ritik Raj</a>
